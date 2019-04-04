@@ -1021,7 +1021,7 @@ input, textarea {
   
 */
 .hero-platform {
-  background-image: url("../img/3.jpg");
+  background-image: url("../img/hero.jpg");
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
@@ -1046,7 +1046,7 @@ input, textarea {
   margin-top: 50px; }
 
 .hero-platform {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/hero3.jpg) no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/hero.jpg) no-repeat center center fixed;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1103,7 +1103,7 @@ input, textarea {
   position: fixed;
   top: 0;
   width: 100%;
-  font-family: 'Lato',sans-serif; }
+  font-family: 'Lato', sans-serif; }
 
 .main-nav {
   list-style-type: none;
@@ -1116,6 +1116,9 @@ input, textarea {
 .nav-links {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.7); }
+
+.nav-links:hover {
+  color: #fff; }
 
 .main-nav li {
   text-align: center;
@@ -1177,8 +1180,8 @@ input, textarea {
   .navbar-toggle {
     display: none; }
   .logo:hover,
-  .nav-links:hover
-.nav-link {
+  .nav-links:hover,
+  .nav-link:hover {
     color: white; } }
 
 footer {

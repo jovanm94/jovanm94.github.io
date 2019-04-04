@@ -12,7 +12,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  font-family:'Lato',sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .main-nav {
@@ -28,6 +28,9 @@
 .nav-links {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.7);
+}
+.nav-links:hover {
+  color: $color-white;
 }
 
 .main-nav li {
@@ -80,7 +83,7 @@
     margin-left: 40px;
   }
   .nav-link {
-    margin-left:40px;
+    margin-left: 40px;
   }
 
   .logo {
@@ -92,8 +95,8 @@
   }
 
   .logo:hover,
-  .nav-links:hover
-  .nav-link {
+  .nav-links:hover,
+  .nav-link:hover {
     color: rgba(255, 255, 255, 1);
   }
 }
