@@ -1,0 +1,43 @@
+@media screen and (max-width:768px) {
+  .hero-title {
+    font-size:20px;
+  }
+  .hero-tagline {
+    font-size:14px;
+  }
+
+  .about-description {
+    width:80%;
+    margin:0 auto;
+  }
+  
+  .ecosystem {
+    img {
+      width:90%;
+      margin:0 auto;
+    }
+  }
+
+  .about-us,
+  .value  {
+    .col-md-4 {
+      margin-bottom:20px;
+    }
+  }
+  .modal {
+    width:80%;
+    input,textarea {
+      width:80%;
+    }
+    
+  }
+  .modal-content-form {
+  overflow-y:scroll;
+  height:300px;
+  
+}
+.btn-submit {
+  margin-left:10%;
+}
+
+}
