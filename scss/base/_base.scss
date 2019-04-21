@@ -137,6 +137,32 @@ body {
   font: $font-size $font-stack;
 }
 
+h1 {
+  font-size: 44px;
+}
+
+h2 {
+  font-size: 32px;
+  color: $color-text;
+}
+
+h3 {
+  font-size: 24px;
+  color: $color-text;
+}
+
+.type-large {
+  font-size: 20px;
+}
+
+.type-small {
+  font-size: 14px;
+}
+
+.type-micro {
+  font-size: 12px;
+}
+
 html,
 body {
   overflow-x: hidden;
@@ -164,6 +190,7 @@ img {
 
 p {
   line-height: 145%;
+  color: $color-text;
 }
 section {
   padding: 80px 0;

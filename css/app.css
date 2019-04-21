@@ -726,6 +726,26 @@ table {
 body {
   font: 14px "Lato", sans-serif !important; }
 
+h1 {
+  font-size: 44px; }
+
+h2 {
+  font-size: 32px;
+  color: #3e4242; }
+
+h3 {
+  font-size: 24px;
+  color: #3e4242; }
+
+.type-large {
+  font-size: 20px; }
+
+.type-small {
+  font-size: 14px; }
+
+.type-micro {
+  font-size: 12px; }
+
 html,
 body {
   overflow-x: hidden;
@@ -748,7 +768,8 @@ img {
   fill: #222; }
 
 p {
-  line-height: 145%; }
+  line-height: 145%;
+  color: #3e4242; }
 
 section {
   padding: 80px 0; }
@@ -933,7 +954,7 @@ textarea {
 */
 .mission {
   text-align: center;
-  background: #f5f5f5; }
+  background-color: #f5f5f5; }
   .mission__title {
     margin-top: 15px;
     font-size: 180%;
@@ -952,11 +973,11 @@ textarea {
   #Value
   */
 .value {
-  background: #f5f5f5;
-  color: black; }
+  background: #f5f5f5; }
   .value__heading {
     margin-top: 30px;
-    font-weight: bold; }
+    font-weight: bold;
+    font-size: 16px; }
   .value svg {
     width: 80px; }
 
@@ -966,7 +987,8 @@ textarea {
 .members__name {
   margin-top: 30px;
   margin-bottom: 15px;
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 16px; }
 
 .members__title {
   color: #3399ff;
@@ -1094,22 +1116,19 @@ textarea {
   position: fixed;
   top: 0;
   width: 100%;
-  font-family: 'Lato', sans-serif; }
+  font-family: "Lato", sans-serif; }
 
 .main-nav {
   list-style-type: none;
   display: none; }
 
-.nav-link {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.7); }
-
 .nav-links {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.7); }
+  color: white;
+  transition: 300ms color; }
 
 .nav-links:hover {
-  color: #fff; }
+  color: #6cf; }
 
 .main-nav li {
   text-align: center;
@@ -1131,6 +1150,9 @@ textarea {
 
 .active {
   display: block; }
+
+.main-nav li:last-child {
+  margin-left: 30px; }
 
 @media screen and (min-width: 768px) {
   .navbar {
@@ -1164,8 +1186,6 @@ textarea {
     margin: 0; }
   .nav-links {
     margin-left: 40px; }
-  .nav-link {
-    margin-left: 40px; }
   .logo {
     margin-top: 0; }
   .navbar-toggle {
@@ -1173,7 +1193,7 @@ textarea {
   .logo:hover,
   .nav-links:hover,
   .nav-link:hover {
-    color: white; } }
+    color: #6cf; } }
 
 footer {
   background: #222;
