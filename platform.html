@@ -1,137 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Between</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Between</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
-  <link rel="stylesheet" href="css/app.css" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-</head>
+  <body>
+    <!--NAV-->
+    <nav class="navbar">
+      <span class="navbar-toggle" id="js-navbar-toggle">
+        <i class="fas fa-bars"></i>
+      </span>
+      <a href="/" class="logo"
+        ><img src="img/icons/logo.png" alt="" width="30"
+      /></a>
+      <ul class="main-nav" id="js-menu">
+        <li>
+          <a href="/" class="nav-links">Home</a>
+        </li>
 
-<body>
-  <!--NAV-->
-  <nav class="navbar">
-    <span class="navbar-toggle" id="js-navbar-toggle">
-      <i class="fas fa-bars"></i>
-    </span>
-    <a href="/" class="logo"><img src='img/icons/logo.png' alt='' width="30"></a>
-    <ul class="main-nav" id="js-menu">
-      <li>
-        <a href="/" class="nav-link">Home</a>
-      </li>
+        <li>
+          <a href="#features" class="nav-links">Contact Us</a>
+        </li>
 
-      <li>
-        <a href="#features" class="nav-links">Contact Us</a>
-      </li>
+        <li>
+          <a href="#contact" class="nav-links">Contact Us</a>
+        </li>
 
+        <li>
+          <a
+            href="javascript:void(0)"
+            class="nav-links btn-request-demo btn--sm"
+            >request a demo</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <!--END OF NAV-->
 
-      <li>
-        <a href="#contact" class="nav-links">Contact Us</a>
-      </li>
-      
-      <li>
-        <a href="javascript:void(0)" class="nav-links btn-request-demo btn--sm">request a demo</a>
-      </li>
-    </ul>
-  </nav>
-  <!--END OF NAV-->
-
-
-
-
-  <!---HERO-->
-  <section class="hero-platform">
-    <div class="title-wrap">
-      <h1 class="hero__title-dark">Our<span class="highlight">.</span>Platform<span class="highlight">.</span>is COOL<span
-          class="highlight">.</span></h1>
-      <div class='u-center'>
-        <p class="hero__tagline-dark">
-          Enterprise-grade factoring platform</p>
-        <a href="javascript:void(0)" class="btn-request-demo btn--lg btn--action">Request demo</a>
-      </div>
-    </div>
-  </section>
-  <!--END OF HERO-->
-
-  <!--PLATFORM BANK-->
-
-  <section class='playtform-bank'>
-    <h2 class="sub-title">Bank</h2>
-    <div class='container'>
-      <div class='row u-mb50'>
-        <div class='col-md-7'>
-          <img src='img/ss/bank1.png' alt=''>
-        </div>
-        <div class='col-md-4'>
-          <h3 class="platform-title">Lorem ipsum</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore temporibus error quae, aperiam dolorum optio recusandae, nam fugit reiciendis consectetur quas obcaecati? Deserunt officiis amet praesentium? Eligendi tenetur provident earum aspernatur, maiores beatae esse eaque iure dignissimos accusantium, rem asperiores?
+    <!---HERO-->
+    <section class="hero-platform">
+      <div class="title-wrap">
+        <h1 class="hero__title-dark">Factoring made easy.</h1>
+        <div class="u-center">
+          <p class="hero__tagline-dark">
+            <a
+              href="javascript:void(0)"
+              class="btn-request-demo btn--lg btn--action"
+              >Request a demo</a
+            >
           </p>
         </div>
       </div>
-      <div class='row'>
-        <div class='col-md-6'>
-            <h3 class="platform-title">Lorem ipsum</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore temporibus error quae, aperiam dolorum optio
-              recusandae, nam fugit reiciendis consectetur quas obcaecati? Deserunt officiis amet praesentium? Eligendi tenetur
-              provident earum aspernatur, maiores beatae esse eaque iure dignissimos accusantium, rem asperiores?
-        </div>
-        <div class='col-md-6'>
-        <img src='img/ss/bank2.png' alt=''>
-        </div>
-      </div>
-      
-    </div>
-  </section>
+    </section>
+    <!--END OF HERO-->
 
-  <!--PLAYFORM COMPANY-->
-  <section class='platform-company'>
-    <h2 class="sub-title">Company</h2>
-    <div class='container'>
-      <div class='row u-mb50'>
-        <div class='col-md-7'>
-          <img src='img/ss/bank1.png' alt=''>
+    <section class="about">
+      <p class="about__description">
+        Our platform brings all factoring participants in one place and improves
+        the whole process.<br />With fast and easy financing, Companies can now
+        devote more time to their core business,<br />
+        while Banks can rely on advanced approval process, increase satisfaction
+        with their clients, and manage more requests much easier.
+      </p>
+    </section>
+
+    <section class="platform">
+      <h2 class="sub-title">Platform</h2>
+      <div class="container">
+        <div class="row u-mb80">
+          <div class="col-md-8">
+            <img src="img/bank2.png" alt="" />
+          </div>
+          <div class="col-md-4">
+            <h3 class="platform-title">Company</h3>
+            <ul class="platform__list">
+              <li>
+                <span class="bold">Fast requests</span> - Request invoice
+                financing in a matter of minutes and track the status of your
+                request
+              </li>
+              <li>
+                <span class="bold">Monitor your liquidity position</span> -
+                Utilize platform analytics and alerts to see how your liquidity
+                position changes and act timely
+              </li>
+              <li>
+                <span class="bold">Exchange documents with financier</span> -
+                Upload and access necessary documents for each request easily
+                and forget about email exchange
+              </li>
+              <li>
+                <span class="bold">Improve your financing capabilities</span> -
+                Get favorable financing conditions by uploading your invoices
+                regularly
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class='col-md-4'>
-          <h3 class="platform-title">Lorem ipsum</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore temporibus error quae, aperiam dolorum
-            optio recusandae, nam fugit reiciendis consectetur quas obcaecati? Deserunt officiis amet praesentium?
-            Eligendi tenetur provident earum aspernatur, maiores beatae esse eaque iure dignissimos accusantium, rem
-            asperiores?
-          </p>
+        <div class="row">
+          <div class="col-md-5">
+            <h3 class="platform-title">Banks</h3>
+            <ul class="platform__list">
+              <li>
+                <span class="bold">Invoice verification</span> - Request
+                verification by debtor for each invoice or only for selected
+                invoices or cases;
+              </li>
+              <li>
+                <span class="bold">Custom request approval</span> - Manage and
+                monitor financing request with necessary documentation all in
+                one place, with available preliminary KYC and risk profile
+                adjusted to your methodology
+              </li>
+              <li>
+                <span class="bold">Easy integration</span> - Ready-to-implement
+                interfaces for necessary file exchange with your systems, such
+                as accounting files, daily platform financings, or any other
+                custom files;
+              </li>
+              <li>
+                <span class="bold">Client onboarding</span> - Onboard your
+                clients easily with already available client information and
+                metrics;
+              </li>
+              <li>
+                <span class="bold">Useful analytics</span> - Monitor your
+                portfolio activity through graphs and measures tailored to your
+                preferences
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-7">
+            <img src="img/company2.png" alt="" />
+          </div>
+        </div>
+        <div class="platform__outro">
+          <h2 class="u-center u-mbot50">
+            Request and schedule a demo today and see our platform in detail.
+          </h2>
+          <div class="u-center">
+            <a
+              href="javascript:void(0)"
+              class="btn-request-demo btn--lg btn--action"
+              >Request a demo</a
+            >
+          </div>
         </div>
       </div>
-      <div class='row'>
-        <div class='col-md-4'>
-          <h3 class="platform-title">Lorem ipsum</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore temporibus error quae, aperiam dolorum
-            optio
-            recusandae, nam fugit reiciendis consectetur quas obcaecati? Deserunt officiis amet praesentium? Eligendi
-            tenetur
-            provident earum aspernatur, maiores beatae esse eaque iure dignissimos accusantium, rem asperiores?
-        </div>
-        <div class='col-md-8'>
-          <img src='img/ss/bank2.png' alt=''>
-        </div>
-      </div>
-  
-    </div>
-  </section>
-  <!-- END OF PLATFORM COMPANY-->
-  
-  <footer id="contact">
+    </section>
+
+    <!--FOOTER-->
+    <footer id="contact">
       <div class="container">
         <div class="row center-xs">
           <div class="col-md-4 col-xs-12">
@@ -155,7 +190,7 @@
                     d="M0 32h16v-32h-16v32zM10 4h4v4h-4v-4zM10 12h4v4h-4v-4zM10 20h4v4h-4v-4zM2 4h4v4h-4v-4zM2 12h4v4h-4v-4zM2 20h4v4h-4v-4zM18 10h14v2h-14zM18 32h4v-8h6v8h4v-18h-14z"
                   ></path>
                 </svg>
-                >Between doo
+                Between doo
               </li>
               <li>
                 <svg
@@ -171,7 +206,7 @@
                     d="M32 18.451l-16-12.42-16 12.42v-5.064l16-12.42 16 12.42zM28 18v12h-8v-8h-8v8h-8v-12l12-9z"
                   ></path>
                 </svg>
-                >Dunavska 18
+                Bulevar Mihajla Pupina 10 Z, lokal 63
               </li>
               <li>
                 <svg
@@ -187,7 +222,7 @@
                     d="M22 20c-2 2-2 4-4 4s-4-2-6-4-4-4-4-6 2-2 4-4-4-8-6-8-6 6-6 6c0 4 4.109 12.109 8 16s12 8 16 8c0 0 6-4 6-6s-6-8-8-6z"
                   ></path>
                 </svg>
-                >011 133 3831
+                +381 64 8023 493
               </li>
               <li>
                 <svg
@@ -215,59 +250,61 @@
         </div>
       </div>
     </footer>
-
-      <!---MODAL-->
-      <div class='backdrop'></div>
-      <div class='modal'>
-        <div class='modal__actions'>
-          <a class="btn-cancel" href="javascript:void(0)"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="12"
-              height="12" viewBox="0 0 32 32">
-              <title>cross</title>
-              <path fill="#9498a4"
-                d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z">
-              </path>
-            </svg>
-          </a>
+    <!---MODAL-->
+    <div class="backdrop"></div>
+    <div class="modal">
+      <div class="modal__actions">
+        <a class="btn-cancel" href="javascript:void(0)"
+          ><svg
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            width="12"
+            height="12"
+            viewBox="0 0 32 32"
+          >
+            <title>cross</title>
+            <path
+              fill="#9498a4"
+              d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"
+            ></path>
+          </svg>
+        </a>
+      </div>
+      <div class="modal__content">
+        <div class="u-center">
+          <img src="img/icons/logo.png" alt="" width="60" />
         </div>
-        <div class='modal__content'>
-          <div class='u-center'>
-            <img src='img/icons/logo.png' alt='' width="60">
-          </div>
-          <div class='modal__contentForm'>
-            <form action='' class="form-req-demo">
-              <div class='form-req-container'>
-                <div class='input'>
-                  <input type='email' name="email" placeholder="email">
-                </div>
-                <div class='input'>
-                  <input type='name' name="name" placeholder="name">
-                </div>
-                <div class='input'>
-                  <input type='text' name="company" placeholder="company">
-                </div>
-                <div class='input'>
-                  <input type='tel' name="telephone" placeholder="tel">
-                </div>
-                <div class='input'>
-                  <textarea name='' id='' cols='30' rows='10' placeholder="Your message here."></textarea>
-                </div>
+        <div class="modal__contentForm">
+          <form action="" class="form-req-demo">
+            <div class="form-req-container">
+              <div class="input">
+                <input type="email" name="email" placeholder="email" />
               </div>
-              <button class="btn-submit btn--sm" type="button">Submit</button>
-            </form>
-          </div>
+              <div class="input">
+                <input type="name" name="name" placeholder="name" />
+              </div>
+              <div class="input">
+                <input type="text" name="company" placeholder="company" />
+              </div>
+              <div class="input">
+                <input type="tel" name="telephone" placeholder="tel" />
+              </div>
+              <div class="input">
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Your message here."
+                ></textarea>
+              </div>
+            </div>
+            <button class="btn-submit btn--sm" type="button">Submit</button>
+          </form>
         </div>
       </div>
-      <!---END OF MODAL-->
-
-
-
-  <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/solid.js"
-    integrity="sha384-IA6YnujJIO+z1m4NKyAGvZ9Wmxrd4Px8WFqhFcgRmwLaJaiwijYgApVpo1MV8p77"
-    crossorigin="anonymous"></script>
-  <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/fontawesome.js"
-    integrity="sha384-EMmnH+Njn8umuoSMZ3Ae3bC9hDknHKOWL2e9WJD/cN6XLeAN7tr5ZQ0Hx5HDHtkS"
-    crossorigin="anonymous"></script>
-  <script src="js/main.js"></script>
-</body>
-
+    </div>
+    <!---END OF MODAL-->
+    <script src="js/main.js"></script>
+  </body>
 </html>

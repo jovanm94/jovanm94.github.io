@@ -1,43 +1,65 @@
-@media screen and (max-width:768px) {
-  .hero-title {
-    font-size:20px;
+@media screen and (max-width: 768px) {
+  .btn--sm {
+    margin-left: 0 !important;
   }
-  .hero-tagline {
-    font-size:14px;
+  .btn-platform {
+    margin-left: 0;
+  }
+  .hero__title {
+    font-size: 20px;
+  }
+  .hero__tagline {
+    font-size: 14px;
+  }
+  .modal {
+    height: 75vh;
+    overflow-y: scroll;
   }
 
-  .about-description {
-    width:80%;
-    margin:0 auto;
+  .about__description {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 16px;
   }
-  
+
   .ecosystem {
     img {
-      width:90%;
-      margin:0 auto;
+      width: 90%;
+      margin: 0 auto;
     }
   }
 
   .about-us,
-  .value  {
+  .value {
     .col-md-4 {
-      margin-bottom:20px;
+      margin-bottom: 20px;
+    }
+    .col-md-3 {
+      margin-bottom: 20px;
+      .value__heading {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+  .members {
+    .col-md-4 {
+      margin-bottom: 20px;
     }
   }
   .modal {
-    width:80%;
-    input,textarea {
-      width:80%;
+    width: 80%;
+    input,
+    textarea {
+      width: 80%;
     }
-    
   }
   .modal-content-form {
-  overflow-y:scroll;
-  height:300px;
-  
-}
-.btn-submit {
-  margin-left:10%;
-}
-
+    overflow-y: scroll;
+    height: 300px;
+  }
+  .btn-submit {
+    margin-left: 10%;
+  }
 }
