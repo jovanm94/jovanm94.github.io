@@ -10,11 +10,29 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/app.css" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="img/favicons/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="img/favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
   </head>
@@ -23,28 +41,35 @@
     <!--NAV-->
     <nav class="navbar">
       <span class="navbar-toggle" id="js-navbar-toggle">
-        <i class="fas fa-bars"></i>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="28"
+          height="28"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="feather feather-menu"
+        >
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
       </span>
       <a href="/" class="logo"
         ><img src="img/icons/logo.png" alt="" width="30"
       /></a>
       <ul class="main-nav" id="js-menu">
         <li>
-          <a href="/" class="nav-links">Home</a>
-        </li>
-
-        <li>
-          <a href="#features" class="nav-links">Contact Us</a>
-        </li>
-
-        <li>
-          <a href="#contact" class="nav-links">Contact Us</a>
+          <a data-scroll href="/" class="nav-links">Home</a>
         </li>
 
         <li>
           <a
             href="javascript:void(0)"
-            class="nav-links btn-request-demo btn--sm"
+            class="nav-links btn-request-demo btn--sm left"
             >request a demo</a
           >
         </li>
@@ -79,15 +104,14 @@
       </p>
     </section>
 
-    <section class="platform">
-      <h2 class="sub-title">Platform</h2>
+    <section class="platform-company">
+      <h2 class="sub-title">For Company</h2>
       <div class="container">
-        <div class="row u-mb80">
+        <div class="row">
           <div class="col-md-8">
-            <img src="img/bank2.png" alt="" />
+            <img src="img/company2.png" alt="" />
           </div>
           <div class="col-md-4">
-            <h3 class="platform-title">Company</h3>
             <ul class="platform__list">
               <li>
                 <span class="bold">Fast requests</span> - Request invoice
@@ -112,9 +136,14 @@
             </ul>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section class="for-bank">
+      <div class="container">
+        <h2 class="sub-title">For Bank</h2>
         <div class="row">
           <div class="col-md-5">
-            <h3 class="platform-title">Banks</h3>
             <ul class="platform__list">
               <li>
                 <span class="bold">Invoice verification</span> - Request
@@ -150,18 +179,19 @@
             <img src="img/company2.png" alt="" />
           </div>
         </div>
-        <div class="platform__outro">
-          <h2 class="u-center u-mbot50">
-            Request and schedule a demo today and see our platform in detail.
-          </h2>
-          <div class="u-center">
-            <a
-              href="javascript:void(0)"
-              class="btn-request-demo btn--lg btn--action"
-              >Request a demo</a
-            >
-          </div>
-        </div>
+      </div>
+    </section>
+
+    <section class="platform__outro">
+      <h2 class="u-center u-mbot50">
+        Request and schedule a demo today and see our platform in detail.
+      </h2>
+      <div class="u-center">
+        <a
+          href="javascript:void(0)"
+          class="btn-request-demo btn--lg btn--action"
+          >Request a demo</a
+        >
       </div>
     </section>
 
@@ -250,7 +280,6 @@
         </div>
       </div>
     </footer>
-    <!---MODAL-->
     <div class="backdrop"></div>
     <div class="modal">
       <div class="modal__actions">
@@ -275,19 +304,34 @@
           <img src="img/icons/logo.png" alt="" width="60" />
         </div>
         <div class="modal__contentForm">
-          <form action="" class="form-req-demo">
+          <form action="info@between.rs" class="form-req-demo">
             <div class="form-req-container">
               <div class="input">
-                <input type="email" name="email" placeholder="email" />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="email*"
+                  required
+                />
               </div>
               <div class="input">
-                <input type="name" name="name" placeholder="name" />
+                <input type="name" name="name" placeholder="name*" required />
               </div>
               <div class="input">
-                <input type="text" name="company" placeholder="company" />
+                <input
+                  type="text"
+                  name="company"
+                  placeholder="company*"
+                  required
+                />
               </div>
               <div class="input">
-                <input type="tel" name="telephone" placeholder="tel" />
+                <input
+                  type="tel"
+                  name="telephone"
+                  placeholder="phone number*"
+                  required
+                />
               </div>
               <div class="input">
                 <textarea
@@ -295,7 +339,8 @@
                   id=""
                   cols="30"
                   rows="10"
-                  placeholder="Your message here."
+                  placeholder="Your message here.*"
+                  required
                 ></textarea>
               </div>
             </div>
