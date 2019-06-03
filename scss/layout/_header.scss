@@ -2,45 +2,23 @@
   # Hero
 */
 .hero {
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(0, 0, 0, 0.3)),
-      to(rgba(0, 0, 0, 0.3))
-    ),
-    url(../img/hero.jpg) no-repeat center center;
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../img/hero.jpg) no-repeat center center;
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../img/hero.jpg) no-repeat center center;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../img/hero.jpg) no-repeat center center;
-  background-size: cover;
   height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  padding: 80px 0;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
+
   &__title {
-    color: $color-white;
-    text-align: center;
+    color: #0000;
     font-size: 450%;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 3px;
     text-transform: uppercase;
+    color: rgba(1, 1, 1, 0.8);
   }
-  &__tagline {
-    margin-bottom: 15px;
-    font-size: 150%;
-    margin-left: 15px;
-    color: $color-white;
-    font-weight: 300;
+  &__description {
+    text-align: left;
+    margin-left: 10%;
   }
 }
 
