@@ -1,5 +1,6 @@
 let mainNav = document.getElementById("js-menu");
 let navBarToggle = document.getElementById("js-navbar-toggle");
+let navbar = document.getElementsByClassName("navbar")[0];
 
 navBarToggle.addEventListener("click", () =>
   mainNav.classList.toggle("active")
@@ -33,4 +34,14 @@ backdrop.addEventListener("click", closeModal);
 var scroll = new SmoothScroll('a[href*="#"]', {
   speed: 500,
   speedAsDuration: true
+});
+
+console.log(navbar);
+window.addEventListener("scroll", () => {
+  const scrolled = window.scrollY;
+  if (scrolled > 20) {
+    navbar.classList.add("active");
+  } else {
+    navbar.classList.remove("active");
+  }
 });

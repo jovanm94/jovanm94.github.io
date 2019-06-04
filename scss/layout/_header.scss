@@ -10,15 +10,24 @@
 
   &__title {
     color: #0000;
-    font-size: 450%;
+    font-size: 400%;
     font-weight: 400;
     letter-spacing: 3px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: rgba(1, 1, 1, 0.8);
+    text-align: left;
   }
   &__description {
     text-align: left;
-    margin-left: 10%;
+    color: $color-text-nav;
+    margin-top: 30px;
+  }
+  &__action {
+    text-align: left;
+    margin-top: 20px;
+    .btn-request-demo {
+      margin-left: 0 !important;
+    }
   }
 }
 

@@ -251,10 +251,12 @@ span.bold {
   cursor: pointer;
   user-select: none;
   color: white;
-  background: $color-dark-blue;
-  text-transform: uppercase;
+  background: $color-pink;
   border-radius: 5px;
+  font-size: 1em;
   transition: 0.5s color;
+  border-radius: 2em;
+  font-weight: bold;
   &:hover {
     background-color: #5af;
   }

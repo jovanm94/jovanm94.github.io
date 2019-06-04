@@ -4,10 +4,43 @@
 .about {
   text-align: center;
   padding: 70px 0;
-  background-color: $color-darker-silver;
   &__description {
     font-size: 20px;
-    color: $color-white;
+    color: $color-text;
+  }
+}
+/*
+  #Find out more
+*/
+
+.find-out-more {
+  .sub-title {
+    margin-bottom: 50px;
+  }
+  h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  &__item {
+    margin-bottom: 50px;
+  }
+  &__list {
+    li {
+      color: $color-text-nav;
+    }
+    h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+  }
+  &__img {
+    .find-out-more__img-item {
+      margin-bottom: 30px;
+      img {
+        box-shadow: 0 24px 32px rgba(0, 0, 0, 0.15);
+      }
+    }
   }
 }
 

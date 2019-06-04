@@ -832,10 +832,12 @@ span.bold {
       -ms-user-select: none;
           user-select: none;
   color: white;
-  background: #3399ff;
-  text-transform: uppercase;
+  background: #eb008d;
   border-radius: 5px;
-  transition: 0.5s color; }
+  font-size: 1em;
+  transition: 0.5s color;
+  border-radius: 2em;
+  font-weight: bold; }
   .btn-request-demo:hover {
     background-color: #5af; }
 
@@ -971,11 +973,36 @@ textarea {
 */
 .about {
   text-align: center;
-  padding: 70px 0;
-  background-color: #222; }
+  padding: 70px 0; }
   .about__description {
     font-size: 20px;
-    color: #fff; }
+    color: #3e4242; }
+
+/*
+  #Find out more
+*/
+.find-out-more .sub-title {
+  margin-bottom: 50px; }
+
+.find-out-more h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  margin-bottom: 20px; }
+
+.find-out-more__item {
+  margin-bottom: 50px; }
+
+.find-out-more__list li {
+  color: #8b959e; }
+
+.find-out-more__list h3 {
+  font-size: 18px;
+  margin-bottom: 10px; }
+
+.find-out-more__img .find-out-more__img-item {
+  margin-bottom: 30px; }
+  .find-out-more__img .find-out-more__img-item img {
+    box-shadow: 0 24px 32px rgba(0, 0, 0, 0.15); }
 
 /*
 
@@ -1121,14 +1148,21 @@ textarea {
           justify-content: center; }
   .hero__title {
     color: #0000;
-    font-size: 450%;
+    font-size: 400%;
     font-weight: 400;
     letter-spacing: 3px;
-    text-transform: uppercase;
-    color: rgba(1, 1, 1, 0.8); }
+    text-transform: capitalize;
+    color: rgba(1, 1, 1, 0.8);
+    text-align: left; }
   .hero__description {
     text-align: left;
-    margin-left: 10%; }
+    color: #8b959e;
+    margin-top: 30px; }
+  .hero__action {
+    text-align: left;
+    margin-top: 20px; }
+    .hero__action .btn-request-demo {
+      margin-left: 0 !important; }
 
 /*
   # Hero
@@ -1172,13 +1206,16 @@ textarea {
   font-size: 16px;
   font-weight: 400;
   background: #fff;
-  padding-bottom: 10px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  padding: 40px 0;
+  transition: 0.3s; }
+
+.navbar.active {
   position: fixed;
   top: 0;
-  width: 80%;
-  font-family: "Lato", sans-serif;
-  padding: 40px 0;
-  margin-left: 10%; }
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+  padding: 0; }
 
 .main-nav {
   list-style-type: none;
@@ -1199,7 +1236,6 @@ textarea {
 .logo {
   display: inline-block;
   font-size: 22px;
-  margin-top: 10px;
   margin-left: 20px; }
 
 .navbar-toggle {
@@ -1222,7 +1258,7 @@ textarea {
         -ms-flex-pack: justify;
             justify-content: space-between;
     padding-bottom: 0;
-    height: 60px;
+    height: 80px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
