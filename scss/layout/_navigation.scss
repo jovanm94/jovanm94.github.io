@@ -62,6 +62,9 @@
     transform: translateY(30px);
     transition: 500ms;
   }
+  .lang-select {
+    margin-left: 50px;
+  }
 
   .navbar.active {
     position: fixed;
